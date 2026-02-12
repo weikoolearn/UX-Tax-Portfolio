@@ -1,0 +1,64 @@
+{
+  "header": {
+    "brandTitle": "Yiwei Wei",
+    "brandSubtitle": "UX Designer • Tax-Focused Experience",
+    "navHome": "Home",
+    "navProjects": "Projects",
+    "navAbout": "About",
+    "switchAria": "Switch language"
+  },
+  "footer": {
+    "summary": "Specialized in UX for tax, compliance, and financial platforms.",
+    "copyright": "© {year} Yiwei Wei"
+  },
+  "home": {
+    "eyebrow": "UX Portfolio",
+    "title": "Placeholder headline for localized home page.",
+    "lead": "Placeholder summary copy for the home page in English.",
+    "ctaPrimary": "View case studies",
+    "ctaSecondary": "About my approach",
+    "positioningTitle": "Positioning",
+    "positioningBody": "Placeholder positioning copy describing expertise and domain context.",
+    "focusAreasTitle": "Focus areas",
+    "focusArea1": "Placeholder focus area one",
+    "focusArea2": "Placeholder focus area two",
+    "focusArea3": "Placeholder focus area three"
+  },
+  "about": {
+    "title": "About",
+    "intro": "Placeholder introduction copy for the about page.",
+    "backgroundTitle": "Background",
+    "backgroundBody": "Placeholder background narrative for experience and domain knowledge.",
+    "skillsTitle": "Skills",
+    "skills1": "Placeholder skill set one",
+    "skills2": "Placeholder skill set two",
+    "skills3": "Placeholder skill set three",
+    "toolsTitle": "Tools & Methods",
+    "toolsBody": "Placeholder tools and methods description for collaboration and delivery workflows."
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Placeholder intro copy for project selections and measurable outcomes.",
+    "project1": {
+      "title": "Placeholder Project One",
+      "summary": "Placeholder summary for project one.",
+      "tag1": "Tag A",
+      "tag2": "Tag B",
+      "tag3": "Tag C"
+    },
+    "project2": {
+      "title": "Placeholder Project Two",
+      "summary": "Placeholder summary for project two.",
+      "tag1": "Tag A",
+      "tag2": "Tag B",
+      "tag3": "Tag C"
+    },
+    "project3": {
+      "title": "Placeholder Project Three",
+      "summary": "Placeholder summary for project three.",
+      "tag1": "Tag A",
+      "tag2": "Tag B",
+      "tag3": "Tag C"
+    }
+  }
+}

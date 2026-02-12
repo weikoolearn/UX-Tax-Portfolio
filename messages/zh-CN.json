@@ -1,0 +1,64 @@
+{
+  "header": {
+    "brandTitle": "Yiwei Wei",
+    "brandSubtitle": "UX 设计师 • 税务领域经验",
+    "navHome": "首页",
+    "navProjects": "项目",
+    "navAbout": "关于",
+    "switchAria": "切换语言"
+  },
+  "footer": {
+    "summary": "专注于税务、合规与金融平台的用户体验设计。",
+    "copyright": "© {year} Yiwei Wei"
+  },
+  "home": {
+    "eyebrow": "UX 作品集",
+    "title": "主页本地化占位标题。",
+    "lead": "这是中文主页的占位说明文案。",
+    "ctaPrimary": "查看案例",
+    "ctaSecondary": "了解我的方法",
+    "positioningTitle": "定位",
+    "positioningBody": "用于描述专业能力与领域背景的占位文案。",
+    "focusAreasTitle": "关注方向",
+    "focusArea1": "占位方向一",
+    "focusArea2": "占位方向二",
+    "focusArea3": "占位方向三"
+  },
+  "about": {
+    "title": "关于",
+    "intro": "关于页面的占位介绍文案。",
+    "backgroundTitle": "背景",
+    "backgroundBody": "用于展示经历与行业理解的占位叙述文案。",
+    "skillsTitle": "技能",
+    "skills1": "占位技能一",
+    "skills2": "占位技能二",
+    "skills3": "占位技能三",
+    "toolsTitle": "工具与方法",
+    "toolsBody": "用于说明协作与交付流程的占位文案。"
+  },
+  "projects": {
+    "title": "项目",
+    "intro": "项目列表与结果说明的占位引导文案。",
+    "project1": {
+      "title": "占位项目一",
+      "summary": "项目一的占位摘要。",
+      "tag1": "标签 A",
+      "tag2": "标签 B",
+      "tag3": "标签 C"
+    },
+    "project2": {
+      "title": "占位项目二",
+      "summary": "项目二的占位摘要。",
+      "tag1": "标签 A",
+      "tag2": "标签 B",
+      "tag3": "标签 C"
+    },
+    "project3": {
+      "title": "占位项目三",
+      "summary": "项目三的占位摘要。",
+      "tag1": "标签 A",
+      "tag2": "标签 B",
+      "tag3": "标签 C"
+    }
+  }
+}
