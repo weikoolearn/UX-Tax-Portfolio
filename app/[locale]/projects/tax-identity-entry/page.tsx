@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 export default function LocalizedTaxIdentityEntryPage() {
   return (
     <section className="stack" style={{width: "100%", gap: "3.75rem"}}>

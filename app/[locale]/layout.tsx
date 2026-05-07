@@ -11,9 +11,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import {locales} from "@/i18n/config";
 import {Link} from "@/i18n/navigation";
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({locale}));
-}
+export const dynamic = "force-dynamic";
 
 export default async function LocaleLayout({
   children,

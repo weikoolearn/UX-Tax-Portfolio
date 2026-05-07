@@ -1,5 +1,7 @@
 import {useTranslations} from "next-intl";
 
+export const dynamic = "force-dynamic";
+
 const featuredCardStyle = {
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(min(280px, 100%), 1fr))",

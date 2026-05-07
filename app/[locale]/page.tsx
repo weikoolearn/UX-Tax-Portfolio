@@ -2,6 +2,8 @@ import {useTranslations} from "next-intl";
 
 import {Link} from "@/i18n/navigation";
 
+export const dynamic = "force-dynamic";
+
 const moduleStyle = {
   border: "1px solid var(--border)",
   borderRadius: "0.75rem",

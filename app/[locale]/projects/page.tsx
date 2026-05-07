@@ -1,5 +1,7 @@
 import {Link} from "@/i18n/navigation";
 
+export const dynamic = "force-dynamic";
+
 const featuredProject = {
   title: "Reframing Identity Entry in Consumer Tax Systems",
   description:
