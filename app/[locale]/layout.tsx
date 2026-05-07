@@ -6,6 +6,7 @@ import {
 } from "next-intl/server";
 import {notFound} from "next/navigation";
 
+import BackToTopButton from "@/components/BackToTopButton";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import {locales} from "@/i18n/config";
 import {Link} from "@/i18n/navigation";
@@ -35,23 +36,37 @@ export default async function LocaleLayout({
     <NextIntlClientProvider locale={locale} messages={messages}>
       <div className="page">
         <header className="site-header">
-          <div className="brand">
-            <span className="brand-title">{headerT("brandTitle")}</span>
-            <span className="brand-subtitle">{headerT("brandSubtitle")}</span>
+          <div className="site-container">
+            <div className="brand">
+              <span className="brand-title">{headerT("brandTitle")}</span>
+              <span className="brand-subtitle">{headerT("brandSubtitle")}</span>
+            </div>
+            <nav className="site-nav">
+              <Link className="site-nav-link" href="/">
+                {headerT("navHome")}
+              </Link>
+              <Link className="site-nav-link" href="/projects">
+                {headerT("navProjects")}
+              </Link>
+              <Link className="site-nav-link" href="/about">
+                {headerT("navAbout")}
+              </Link>
+              <LanguageSwitcher />
+            </nav>
           </div>
-          <nav className="site-nav">
-            <Link href="/">{headerT("navHome")}</Link>
-            <Link href="/projects">{headerT("navProjects")}</Link>
-            <Link href="/about">{headerT("navAbout")}</Link>
-            <LanguageSwitcher />
-          </nav>
         </header>
 
-        <main className="site-main">{children}</main>
+        <main className="site-main">
+          <div className="site-container">{children}</div>
+        </main>
+
+        <BackToTopButton />
 
         <footer className="site-footer">
-          <span>{footerT("summary")}</span>
-          <span>{footerT("copyright", {year: new Date().getFullYear()})}</span>
+          <div className="site-container">
+            <span>{footerT("summary")}</span>
+            <span>{footerT("copyright", {year: new Date().getFullYear()})}</span>
+          </div>
         </footer>
       </div>
     </NextIntlClientProvider>

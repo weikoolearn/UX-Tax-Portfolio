@@ -1,5 +1,11 @@
+<<<<<<< ours
+<<<<<<< ours
 # UX-Tax-Portfolio
 UX portfolio focused on user-centered design and tax-related digital experiences.
+=======
+>>>>>>> theirs
+=======
+>>>>>>> theirs
 # UX Tax Portfolio
 
 A modern personal portfolio for a UX designer with a tax-focused background. This
@@ -41,4 +47,12 @@ public/          # Static assets
 ```bash
 npm run build
 npm run start
+<<<<<<< ours
+<<<<<<< ours
 ```
+=======
+```
+>>>>>>> theirs
+=======
+```
+>>>>>>> theirs
