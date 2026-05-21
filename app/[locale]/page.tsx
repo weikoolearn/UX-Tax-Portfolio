@@ -80,12 +80,6 @@ export default function HomePage() {
           </div>
 
           <div className="hero-workflow" aria-hidden="true">
-            <div className="workflow-kicker">Role-aware routing</div>
-            <div className="workflow-signal workflow-signal-booking">Booking</div>
-            <div className="workflow-signal workflow-signal-documents">Documents</div>
-            <div className="workflow-signal workflow-signal-certification">Certification</div>
-            <div className="workflow-signal workflow-signal-office">Office Availability</div>
-
             <div className="workflow-card workflow-card-intake">
               <span className="workflow-dot" />
               Client Intake

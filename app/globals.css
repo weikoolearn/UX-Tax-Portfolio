@@ -210,9 +210,7 @@ ul {
 }
 
 .workflow-card,
-.workflow-node,
-.workflow-signal,
-.workflow-kicker {
+.workflow-node {
   position: absolute;
   z-index: 2;
   display: inline-flex;
@@ -286,51 +284,6 @@ ul {
   color: var(--dark-ink);
   font-size: 0.86rem;
   box-shadow: 0 8px 18px color-mix(in srgb, var(--green-accent) 10%, transparent);
-}
-
-.workflow-kicker {
-  top: 1.05rem;
-  left: 1.25rem;
-  padding: 0.25rem 0.5rem;
-  border: 1px solid color-mix(in srgb, var(--green-accent) 24%, transparent);
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--surface-background) 86%, transparent);
-  color: var(--green-accent);
-  font-size: 0.68rem;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.workflow-signal {
-  min-height: 1.75rem;
-  padding: 0.32rem 0.52rem;
-  border: 1px solid color-mix(in srgb, var(--border) 88%, var(--green-accent));
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--surface-background) 72%, transparent);
-  color: var(--muted);
-  font-size: 0.68rem;
-  font-weight: 600;
-  line-height: 1;
-}
-
-.workflow-signal-booking {
-  top: 2.7rem;
-  left: 2.7rem;
-}
-
-.workflow-signal-documents {
-  left: calc(50% - 8.95rem);
-  top: 17.125rem;
-}
-
-.workflow-signal-certification {
-  right: calc(50% - 9.05rem);
-  top: 17.125rem;
-}
-
-.workflow-signal-office {
-  top: 2.7rem;
-  right: 1.7rem;
 }
 
 .workflow-connector {
